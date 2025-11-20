@@ -1,28 +1,3 @@
-// import React from "react";
-// import { Box, CircularProgress, Typography } from "@mui/material";
-
-// const LoadingSpinner = ({ message = "Loading companies..." }) => {
-//   return (
-//     <Box
-//       sx={{
-//         display: "flex",
-//         flexDirection: "column",
-//         alignItems: "center",
-//         justifyContent: "center",
-//         minHeight: "400px",
-//         gap: 2,
-//       }}
-//     >
-//       <CircularProgress size={50} thickness={4} />
-//       <Typography variant="body1" color="text.secondary">
-//         {message}
-//       </Typography>
-//     </Box>
-//   );
-// };
-
-// export default LoadingSpinner;
-
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { keyframes } from "@mui/system";
